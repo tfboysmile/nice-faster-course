@@ -18,8 +18,8 @@ from utils import load_gt_boxes
 
 def iou(box, clusters):
     '''
-    :param box:      np.array of shape (2,) containing w and h
-    :param clusters: np.array of shape (N cluster, 2)
+    :param box:      np.array (2,)  w and h
+    :param clusters: np.array (N cluster, 2)
     '''
     x = np.minimum(clusters[:, 0], box[0])
     y = np.minimum(clusters[:, 1], box[1])
