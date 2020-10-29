@@ -1,2 +1,2 @@
 # nice-faster-course
-if you 
+Most people hate smatter !
